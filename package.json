@@ -16,9 +16,9 @@
     "url": "https://github.com/stevesouth/ct-cli/issues"
   },
   "homepage": "https://github.com/stevesouth/ct-cli#readme",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
-    "copy-template-dir": "^1.2.0"
+    "copy-template-dir": "git://github.com/stevesouth/copy-template-dir.git#graceful-fs",
+    "minimist": "^1.2.0"
   }
 }
