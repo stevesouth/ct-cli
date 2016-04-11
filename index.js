@@ -5,8 +5,11 @@ var option = args._[1];
 var commandFunction = commands[command];
 
 if (!command || !commandFunction) {
-	throw new Error("Command '" + command + "' not found");
+	console.log("Command '" + command + "' not found");
+	commands['help'](option);
+} else {
+	commandFunction(option);
 }
 
-commandFunction(option);
+
 

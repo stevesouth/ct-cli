@@ -1,0 +1,1 @@
+console.log("mobile JS Loaded 2");
